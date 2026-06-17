@@ -5,14 +5,13 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const connectDB = require("./config/db");
-
 connectDB();
 
 const app = express();
 
 app.use(cors(
   {
-    orgin: "https://atm-git-main-react-60623608.vercel.app/"
+    origin: "https://atm-git-main-react-60623608.vercel.app/"
   }
 ));
 app.use(express.json());
