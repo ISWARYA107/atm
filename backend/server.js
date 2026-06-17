@@ -11,7 +11,7 @@ const app = express();
 
 app.use(cors(
   {
-    origin: "https://atm-git-main-react-60623608.vercel.app/"
+    origin: "https://atm-git-main-react-60623608.vercel.app"
     
   }
 ));
